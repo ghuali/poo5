@@ -13,7 +13,7 @@ def test_listaTareas1(lista):
     lista.agregar('False,1,"Dibujar un pato"')
     assert len(lista) == 1
 
-def test_listaAlumno2(lista):
+def test_listaTarea2(lista):
     lista.agregar('False,1,"Dibujar un pato"')
     lista.agregar('True,2,"Matar a Dios"')
 
@@ -22,7 +22,7 @@ def test_listaAlumno2(lista):
     assert lista[0] == ('False,1,"Dibujar un pato"')
     assert lista[1] == ('True,2,"Matar a Dios"')
 
-def test_listaAlumnoDelete(lista):
+def test_listaTareaDelete(lista):
     lista.agregar('True,3,"Jugar a fortnite"')
     assert lista[0] == 'True,3,"Jugar a fortnite"'
 
