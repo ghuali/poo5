@@ -1,6 +1,6 @@
 class Tarea:
 #Tarea que pide en atributos id,estado,tarea desc y utilizar "CRUD" que es read update y delete
-    def __init__(self,estado:bool,id:int,tarea:str,file) -> None:
+    def __init__(self,estado:bool,id:int,tarea:str) -> None:
         self.id = id
         self.estado = estado
         self.tarea = tarea
@@ -8,7 +8,7 @@ class Tarea:
 
     
     def read(self):
-        return self.id,self.estado,self.tarea
+        return self.estado,self.id,self.tarea
 
 
     def update(self,estado,id,tarea):
@@ -17,7 +17,7 @@ class Tarea:
         self.tarea = tarea
 
 
-    def delete(self,file):
+    def delete(self):
         self.id = None
         self.estado = None
         self.tarea = None
