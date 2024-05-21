@@ -4,23 +4,23 @@ class Tarea:
         self.id = id
         self.estado = estado
         self.tarea = tarea
-        self.file = file
-        try:
-            self.i = open(self.file, "r+")
-        except Exception:
-            self.i = open(self.file, "w+")
+
+
     
     def read(self):
-        return(self.i.readlines())
+        return self.id,self.estado,self.tarea
 
 
-    def update(self,newest,newid,newtarea):
-        self.i.write(newest)
-        self.i.write(newid)
-        self.i.write(newtarea)
+    def update(self,estado,id,tarea):
+        self.id = id
+        self.estado = estado
+        self.tarea = tarea
+
 
     def delete(self,file):
-        pass
+        self.id = None
+        self.estado = None
+        self.tarea = None
 
 
 
