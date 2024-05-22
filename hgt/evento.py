@@ -2,12 +2,20 @@ from tarea import Tarea
 
 class Evento(Tarea):
     def __init__(self, fechaInicio: str, fechaFinal: str, horaInicio: float, horaFinal:float) -> None:
-        super().__init__(fechaInicio, fechaFinal,  horaInicio, horaFinal)
-# Tener de atributos de fecha de inicio,hora inicio,fecha final,hora final y utilizar "CRUD" que es read update y delete
+        Tarea.__init__(estado,id,tarea)
+        # Tener de atributos de fecha de inicio,hora inicio,fecha final,hora final y utilizar "CRUD" que es read update y delete
+        self.fechaInicio = fechaInicio
+        self.fechaFinal = fechaFinal
+        self.horaInicio = horaInicio
+        self.horaFinal = horaFinal
+        self.estado = estado
 
 
     def read(self):
-        pass
+        self.fechaInicio = fechaInicio
+        self.fechaFinal = fechaFinal
+        self.horaInicio = horaInicio
+        self.horaFinal = horaFinal
 
 
     def update(self):
