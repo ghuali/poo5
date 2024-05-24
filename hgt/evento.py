@@ -1,14 +1,15 @@
-from tarea import Tarea
+from hgt.tarea import Tarea
 
 class Evento(Tarea):
     def __init__(self, fechaInicio: str, fechaFinal: str, horaInicio: str, horaFinal:str) -> None:
         
         # Tener de atributos de fecha de inicio,hora inicio,fecha final,hora final y utilizar "CRUD" que es read update y delete
+        Tarea.__init__(Tarea.estado,Tarea.id,Tarea.tarea) 
         self.fechaInicio = fechaInicio
         self.fechaFinal = fechaFinal
         self.horaInicio = horaInicio
         self.horaFinal = horaFinal
-        
+          
 
 
     def read(self):

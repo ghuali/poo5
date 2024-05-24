@@ -1,0 +1,1 @@
+False,1,"Dibujar un pato"|&&|True,2,"Matar a Dios"
