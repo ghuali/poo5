@@ -11,3 +11,9 @@ tests_hgt/__pycache__/test_evento.cpython-312-pytest-8.1.1.pyc
 tests_hgt/__pycache__/test_evento.cpython-312-pytest-8.1.1.pyc
 tests_hgt/__pycache__/test_archivo.cpython-312-pytest-8.1.1.pyc
 tests_hgt/__pycache__/test_evento.cpython-312-pytest-8.1.1.pyc
+examenRepaso/__pycache__/__init__.cpython-312.pyc
+examenRepaso/__pycache__/jugador.cpython-312.pyc
+examenRepaso/__pycache__/perusoma.cpython-312.pyc
+examenRepaso/tests/__pycache__/__init__.cpython-312.pyc
+examenRepaso/tests/__pycache__/test_jugador.cpython-312-pytest-8.1.1.pyc
+examenRepaso/tests/__pycache__/test_persona.cpython-312-pytest-8.1.1.pyc
